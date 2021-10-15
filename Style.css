@@ -7,9 +7,9 @@ body {
   .flex-container1 {
     text-align: center;
   }
-  h1 {
-    color: darkgreen;
-  }
+  /* h1 {
+    
+  } */
   h3 {
     color: brown;
   }
@@ -71,4 +71,21 @@ body {
     margin: 0 auto;
 	font-weight: bold;
 	font-size: 20px;
+}
+#box1{
+  position: absolute;  
+  /* text-align: center; */
+  margin :0 auto;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+
+}
+h1{
+  color:black;
+    font-size: 38px;
+    font-family: 'Brush Script MT', cursive;
+}
+#box2{
+  position: relative;
 }
